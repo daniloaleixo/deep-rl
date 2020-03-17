@@ -1,0 +1,15 @@
+{
+  "data": {
+    "filename": "sp500.csv",
+    "train_test_split": 0.9,
+    "sequence_length": 30,
+    "normalise": true,
+    "columns": [
+      "Close"
+    ]
+  },
+  "model": {
+    "save_dir": "saved_models",
+    "pre_trained": null
+  }
+}
